@@ -1,0 +1,56 @@
+body{
+    font-family: Inter;
+    margin: 0;
+    background-color:#0b173d;
+}
+
+.navbar{
+    position: static;
+}
+
+.button{
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.button:hover{
+    color: #e15728;
+    cursor: pointer;
+}
+
+.title1{
+    text-align: center;
+    color: white;
+    font-size:60px;
+    margin-top: 350px;
+}
+
+.description{
+    color:white;
+    text-align: center;
+}
+
+.title2{
+    color: #6366f1;
+    text-align: center;
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+.images-slide{
+    height: 100vh;
+    background-image:
+    linear-gradient(to bottom, rgba(11, 23, 61, 0.685), rgb(11,23,61,1)),
+    url(./imgs/background/avengers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#next{
+    background-color: #0b173d;
+    height: 100vh;
+}
