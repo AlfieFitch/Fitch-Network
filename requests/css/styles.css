@@ -1,0 +1,105 @@
+body{
+    font-family: Inter;
+    margin: 0;
+    background-color:#0b173d;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 35px;
+}
+.navbar{
+    position: static;
+}
+
+.button{
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover{
+    color: #e15728;
+    cursor: pointer;
+}
+
+.title1{
+    text-align: center;
+    color: white;
+    font-size:60px;
+    margin-top: 250px;
+}
+
+.description{
+    color:white;
+    text-align: center;
+}
+
+.title2{
+    color: #6366f1;
+    text-align: center;
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+#images-slide{
+    height: 100vh;
+    background-image:
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#next{
+    background-color: #0b173d;
+    height: 100vh;
+}
+
+.footer{
+   width: 100%;
+   position: absolute;
+   color: white;
+   bottom: 10px;
+   text-align: center;
+}
+
+.about{
+    font-family: inter;
+    color: white;
+    margin-top: 450px;
+    height: 100vh;
+}
+
+.fullscreen{
+    z-index: -100;
+    position: absolute;
+    top: 0px;
+    left: -256px;
+    bottom: 0;
+    right: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    width: calc(100vw + 256px);
+}
+
+.header{
+    margin-left: 50%;
+    width: 43%;
+    background-color: transparent;
+    position: absolute !important;
+    height: 50px;
+}
+
+.centredlogo{
+    position: absolute !important;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: calc(50% - 137px);
+}

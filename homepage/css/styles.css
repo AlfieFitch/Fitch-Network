@@ -66,3 +66,40 @@ body{
    bottom: 10px;
    text-align: center;
 }
+
+.about{
+    font-family: inter;
+    color: white;
+    margin-top: 450px;
+    height: 100vh;
+}
+
+.fullscreen{
+    z-index: -100;
+    position: absolute;
+    top: 0px;
+    left: -256px;
+    bottom: 0;
+    right: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    width: calc(100vw + 256px);
+}
+
+.header{
+    margin-left: 50%;
+    width: 43%;
+    background-color: transparent;
+    position: absolute !important;
+    height: 50px;
+}
+
+.centredlogo{
+    position: absolute !important;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: calc(50% - 137px);
+}
